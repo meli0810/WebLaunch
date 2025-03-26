@@ -16,7 +16,6 @@ jobs:
         uses: Cyb3r-Jak3/html5-validator-action@v1
         with:
           file: index.html
-
   deploy:
     needs: validate-html
     runs-on: ubuntu-latest
